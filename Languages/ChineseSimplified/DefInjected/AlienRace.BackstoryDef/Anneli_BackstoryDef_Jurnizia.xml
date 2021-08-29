@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Adulthood -->
+
+  <Anneli_Jurnizia_Homesteader.title>Annelitrice Jurnizia Homesteader</Anneli_Jurnizia_Homesteader.title>
+  <Anneli_Jurnizia_Homesteader.titleShort>Jurnizia Homesteader</Anneli_Jurnizia_Homesteader.titleShort>
+  <Anneli_Jurnizia_Homesteader.baseDescription>[PAWN_nameDef] acts as a Jurnizia homesteader. She is conscripted by local warlords.</Anneli_Jurnizia_Homesteader.baseDescription>
+
+  <Anneli_Jurnizia_Youth.title>Annelitrice Jurnizia Youth</Anneli_Jurnizia_Youth.title>
+  <Anneli_Jurnizia_Youth.titleShort>Jurnizia Youth</Anneli_Jurnizia_Youth.titleShort>
+  <Anneli_Jurnizia_Youth.baseDescription>[PAWN_nameDef] acts as a Jurnizia youth, pursuing excitement and glory in the war.</Anneli_Jurnizia_Youth.baseDescription>
+
+  <Anneli_Jurnizia_ArmyReserve.title>Annelitrice Jurnizia Army Reserve</Anneli_Jurnizia_ArmyReserve.title>
+  <Anneli_Jurnizia_ArmyReserve.titleShort>Jurnizia Army Reserve</Anneli_Jurnizia_ArmyReserve.titleShort>
+  <Anneli_Jurnizia_ArmyReserve.baseDescription>[PAWN_nameDef] acts as a Jurnizia army reserve. She has the skills to survive this war.</Anneli_Jurnizia_ArmyReserve.baseDescription>
+
+  <Anneli_Jurnizia_Officer.title>Annelitrice Jurnizia Officer</Anneli_Jurnizia_Officer.title>
+  <Anneli_Jurnizia_Officer.titleShort>Jurnizia Officer</Anneli_Jurnizia_Officer.titleShort>
+  <Anneli_Jurnizia_Officer.baseDescription>[PAWN_nameDef] acts as a Jurnizia officer. Everyone in her family serves in the army.</Anneli_Jurnizia_Officer.baseDescription>
+
+  <Anneli_Jurnizia_Laborer.title>Annelitrice Jurnizia Laborer</Anneli_Jurnizia_Laborer.title>
+  <Anneli_Jurnizia_Laborer.titleShort>Jurnizia Laborer</Anneli_Jurnizia_Laborer.titleShort>
+  <Anneli_Jurnizia_Laborer.baseDescription>[PAWN_nameDef] acts as a Jurnizia laborer of an oil company.</Anneli_Jurnizia_Laborer.baseDescription>
+
+  <Anneli_Jurnizia_ArtStudent.title>Annelitrice Jurnizia Art Student</Anneli_Jurnizia_ArtStudent.title>
+  <Anneli_Jurnizia_ArtStudent.titleShort>Jurnizia Art Student</Anneli_Jurnizia_ArtStudent.titleShort>
+  <Anneli_Jurnizia_ArtStudent.baseDescription>[PAWN_nameDef] acts as a Jurnizia art student. She was admitted by a local art academy, but the war ruined everything.</Anneli_Jurnizia_ArtStudent.baseDescription>
+
+  <Anneli_Jurnizia_Veteran.title>Annelitrice Jurnizia Veteran</Anneli_Jurnizia_Veteran.title>
+  <Anneli_Jurnizia_Veteran.titleShort>Jurnizia Veteran</Anneli_Jurnizia_Veteran.titleShort>
+  <Anneli_Jurnizia_Veteran.baseDescription>[PAWN_nameDef] acts as a Jurnizia veteran. She joins the army again because she has not received pension for months.</Anneli_Jurnizia_Veteran.baseDescription>
+
+  <Anneli_Jurnizia_SpecialForce.title>Annelitrice Jurnizia Special Force</Anneli_Jurnizia_SpecialForce.title>
+  <Anneli_Jurnizia_SpecialForce.titleShort>Jurnizia Special Force</Anneli_Jurnizia_SpecialForce.titleShort>
+  <Anneli_Jurnizia_SpecialForce.baseDescription>[PAWN_nameDef] acts as a member of Jurnizia special force. She has excellent combat skills, but also some dark secrets.</Anneli_Jurnizia_SpecialForce.baseDescription>
+
+  <Anneli_Jurnizia_Warlord.title>Annelitrice Jurnizia Warlord</Anneli_Jurnizia_Warlord.title>
+  <Anneli_Jurnizia_Warlord.titleShort>Jurnizia Warlord</Anneli_Jurnizia_Warlord.titleShort>
+  <Anneli_Jurnizia_Warlord.baseDescription>[PAWN_nameDef] acts as a Jurnizia warlord. She owns everything, and therefore becomes paranoid that others will take her belongings away.</Anneli_Jurnizia_Warlord.baseDescription>
+
+  <Anneli_Jurnizia_Spokesperson.title>Annelitrice Jurnizia Spokesperson</Anneli_Jurnizia_Spokesperson.title>
+  <Anneli_Jurnizia_Spokesperson.titleShort>Jurnizia Spokesperson</Anneli_Jurnizia_Spokesperson.titleShort>
+  <Anneli_Jurnizia_Spokesperson.baseDescription>[PAWN_nameDef] acts as a Jurnizia spokesperson. Her job is to declare victory and deny defeats.</Anneli_Jurnizia_Spokesperson.baseDescription>
+
+
+</LanguageData>

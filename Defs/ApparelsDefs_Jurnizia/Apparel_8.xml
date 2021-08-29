@@ -51,8 +51,8 @@
 		<comps>
 			<li Class="Annelitrice.CompProperties_PlayMusic">
 				<soundDefs>
-					<li>Anneli_Sound_SampleSongGuitarA</li>
-					<li>Anneli_Sound_SampleSongGuitarB</li>
+					<!-- <li>Anneli_Sound_SampleSongGuitarA</li>
+					<li>Anneli_Sound_SampleSongGuitarB</li> -->
 				</soundDefs>
 				<effecters>
 					<li>Anneli_Effecter_Note1</li>
