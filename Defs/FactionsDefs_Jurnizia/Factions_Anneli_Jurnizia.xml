@@ -3,11 +3,11 @@
 
 	<FactionDef ParentName="Anneli_FactionBase">
 		<defName>Anneli_Faction_Jurnizia</defName>
-		<label>Anneli Faction Jurnizia</label>
-		<description>The Jurnizia Annelitrices are actually made of two groups of Annelitrices. A long time ago, there are two factions of Annelitrices: one plays as "Confederate", whose goal is to restore order of this planet, while the other one is "Rebel", whose goals are to go against the "Confederate" and play as a villain. However, they actually worked together to create the greatest war "movie". These two factions have been fighting for years, but the "Confederate" always won because it started with greater number of soldiers and better equipments. Until one cycle, somehow the "Confederate" made every possible mistake and some small probability events happened, the "Rebel" won the war and completely assimilitated the "Confederate". In the past, the "Confederate" would stop the "Rebel" by killing and capturing every "Rebel" Annelitrice, and then start the next cycle; now nobody would stop these "Rebels". Later, the "Rebel" became "Jurnizia" and its members continuted indiscriminate attacks on other settlements. One important thing is that these Jurnizia Annelitrices are not evil in their nature: they are just playing as bad people and doing what bad people should do.</description>
+		<label>Anneli Faction Republic of Jurnizia</label>
+		<description>Long ago there was a great Annelitrice power that decided to impose order under their own “Confederate” rule over a discord driven planet. A smaller group of Annelitrice who disagreed with their rule formed the “Rebels” which sought to undermine and antagonize the powerful Confederacy’s actions. Over several years, battles erupted between the two factions which the superior Confederates would always win, followed by an extermination of the remaining Rebels. The truth is that both the Confederate and the Rebels are made of the same group of Annelitrices, who were trying to create the best war movie by repeating wars over and over again. When the Rebels are exterminated, a few members of the Confederate would act as Rebels and resume the cycle. However, after thousands of cycles, something went wrong: even with their superior equipment and numbers the Confederates blundered completely against the weaker Rebels. The Rebels managed to, against all odds, win the neverending war. Then, the Rebels managed to assimilate the remaining Confederates and roam free under the new branding of “Jurnizia”. As Rebels they existed only to serve as a villain for the Confederates, now they indiscriminately pillage surrounding civilizations. They are not destructive nor evil individuals, they are just really good actresses.</description>
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrices</pawnsPlural>
-		<fixedName>Forged Jurnizia</fixedName>
+		<fixedName>Forged Republic of Jurnizia</fixedName>
 		<requiredMemes>
       		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
       		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
@@ -29,7 +29,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>True</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Commander</leaderTitle>
+		<leaderTitle>Chief</leaderTitle>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<geneticVariance>1</geneticVariance>

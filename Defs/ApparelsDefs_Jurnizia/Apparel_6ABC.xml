@@ -35,8 +35,8 @@
 <!--Anneli_Jurnizia_MASKA_Black_Slit-->
 	<ThingDef ParentName="Anneli_Jurnizia_6ABC">
 		<defName>Anneli_Jurnizia_MASKA_Black_Slit</defName>
-		<description>(Jurnizia)6ABC_HeavyHelmet</description>
-		<label>(Jurnizia)6ABC_HeavyHelmet</label>
+		<description>(Jurnizia)6ABC_MASKA_Black_Slit</description>
+		<label>(Jurnizia)6ABC_MASKA_Black_Slit</label>
 		<graphicData>
 			<texPath>6ABC/Anneli_Jurnizia_MASKA_Black_Slit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -65,8 +65,8 @@
 <!--Anneli_Jurnizia_MASKA_Black_Visor-->
 	<ThingDef ParentName="Anneli_Jurnizia_6ABC">
 		<defName>Anneli_Jurnizia_MASKA_Black_Visor</defName>
-		<description>(Jurnizia)6ABC_HeavyHelmet</description>
-		<label>(Jurnizia)6ABC_HeavyHelmet</label>
+		<description>(Jurnizia)6ABC_MASKA_Black_Visor</description>
+		<label>(Jurnizia)6ABC_MASKA_Black_Visor</label>
 		<graphicData>
 			<texPath>6ABC/Anneli_Jurnizia_MASKA_Black_Visor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -95,8 +95,8 @@
 <!--Anneli_Jurnizia_MASKA_Slit-->
 	<ThingDef ParentName="Anneli_Jurnizia_6ABC">
 		<defName>Anneli_Jurnizia_MASKA_Slit</defName>
-		<description>(Jurnizia)6ABC_HeavyHelmet</description>
-		<label>(Jurnizia)6ABC_HeavyHelmet</label>
+		<description>(Jurnizia)6ABC_MASKA_Slit</description>
+		<label>(Jurnizia)6ABC_MASKA_Slit</label>
 		<graphicData>
 			<texPath>6ABC/Anneli_Jurnizia_MASKA_Slit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -125,8 +125,8 @@
 <!--Anneli_Jurnizia_MASKA_Visor-->
 	<ThingDef ParentName="Anneli_Jurnizia_6ABC">
 		<defName>Anneli_Jurnizia_MASKA_Visor</defName>
-		<description>(Jurnizia)6ABC_HeavyHelmet</description>
-		<label>(Jurnizia)6ABC_HeavyHelmet</label>
+		<description>(Jurnizia)6ABC_MASKA_Visor</description>
+		<label>(Jurnizia)6ABC_MASKA_Visor</label>
 		<graphicData>
 			<texPath>6ABC/Anneli_Jurnizia_MASKA_Visor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

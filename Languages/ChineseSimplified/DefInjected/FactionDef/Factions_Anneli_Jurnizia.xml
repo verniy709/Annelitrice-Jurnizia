@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Anneli_Faction_Jurnizia.label>Anneli Faction Jurnizia</Anneli_Faction_Jurnizia.label>
-  <Anneli_Faction_Jurnizia.description>The Jurnizia Annelitrices are actually made of two groups of Annelitrices. A long time ago, there are two factions of Annelitrices: one plays as "Confederate", whose goal is to restore order of this planet, while the other one is "Rebel", whose goals are to go against the "Confederate" and play as a villain. However, they actually worked together to create the greatest war "movie". These two factions have been fighting for years, but the "Confederate" always won because it started with greater number of soldiers and better equipments. Until one cycle, somehow the "Confederate" made every possible mistake and some small probability events happened, the "Rebel" won the war and completely assimilitated the "Confederate". In the past, the "Confederate" would stop the "Rebel" by killing and capturing every "Rebel" Annelitrice, and then start the next cycle; now nobody would stop these "Rebels". Later, the "Rebel" became "Jurnizia" and its members continuted indiscriminate attacks on other settlements. One important thing is that these Jurnizia Annelitrices are not evil in their nature: they are just playing as bad people and doing what bad people should do.</Anneli_Faction_Jurnizia.description>
-  <Anneli_Faction_Jurnizia.fixedName>Forged Jurnizia</Anneli_Faction_Jurnizia.fixedName>
-  <Anneli_Faction_Jurnizia.pawnsPlural>Annelitrices</Anneli_Faction_Jurnizia.pawnsPlural>
-  <Anneli_Faction_Jurnizia.leaderTitle>Commander</Anneli_Faction_Jurnizia.leaderTitle>
+  <Anneli_Faction_Jurnizia.label>安娜缇娅斯切尼亚共和国</Anneli_Faction_Jurnizia.label>
+  <Anneli_Faction_Jurnizia.description>过去曾经有一支被称为“联邦”的安娜缇娅斯势力试图在整个星球上建立她们的秩序. 同时还有另一小伙安娜缇娅斯处处和联邦作对，而她们被称为“叛军”. 在数年时间中, 双方爆发了无数的战斗，而处于优势的联邦总能赢得胜利，并彻底铲除叛军. 但事实上这两股安娜缇娅斯势力本质是一家人, 她们只是想在无尽的战斗中创作出最完美的战争电影. 每当叛军被彻底杀光以后， 一部分原本属于联邦的人员会成为叛军，然后双方继续进行厮杀. 但是在数不清的循环之后，她们的剧本出了点问题： 虽然联邦有着数量和质量上的优势，却在一场战斗中大败于叛军. 伴随着联邦在这场战役的惨败，叛军赢得了最终的胜利. 随后，叛军吸收了残存的联邦军成员，并自称为“切尼亚”. 由于按照剧本上讲，叛军是作为对抗联邦的反派而存在的，所以当联邦不复存在之后，她们开始无差别地袭击附近的所有定居点. 她们这样做并不是出于任何的利益诉求或者意识形态，只是单纯入戏太深.</Anneli_Faction_Jurnizia.description>
+  <Anneli_Faction_Jurnizia.fixedName>伪造的切尼亚共和国</Anneli_Faction_Jurnizia.fixedName>
+  <Anneli_Faction_Jurnizia.pawnsPlural>安娜缇娅斯</Anneli_Faction_Jurnizia.pawnsPlural>
+  <Anneli_Faction_Jurnizia.leaderTitle>头领</Anneli_Faction_Jurnizia.leaderTitle>
 
 
 </LanguageData>
