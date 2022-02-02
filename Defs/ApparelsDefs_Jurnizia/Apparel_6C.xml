@@ -92,47 +92,5 @@
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 		</equippedStatOffsets>
 	</ThingDef>
-	
-<!--Anneli_Jurnizia_FakeBeard_A-->
-	<!-- <ThingDef ParentName="Anneli_Jurnizia_6C">
-		<defName>Anneli_Jurnizia_FakeBeard_A</defName>
-		<description>(Jurnizia)6C_FakeBeard_A</description>
-		<label>(Jurnizia)6C_FakeBeard_A</label>
-		<graphicData>
-			<texPath>6C/Anneli_Jurnizia_FakeBeard_A</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>6C/Anneli_Jurnizia_FakeBeard_A</wornGraphicPath>
-			<tags>
-				<li>Anneli_Jurnizia_Common</li>
-			</tags>
-		</apparel>
-		<equippedStatOffsets>
-			<TradePriceImprovement>0.15</TradePriceImprovement>
-			<ComfyTemperatureMin>-2</ComfyTemperatureMin> 
-		</equippedStatOffsets>
-	</ThingDef> -->
-
-<!--Anneli_Jurnizia_FakeBeard_B-->
-	<!-- <ThingDef ParentName="Anneli_Jurnizia_6C">
-		<defName>Anneli_Jurnizia_FakeBeard_B</defName>
-		<description>(Jurnizia)6C_FakeBeard_B</description>
-		<label>(Jurnizia)6C_FakeBeard_B</label>
-		<graphicData>
-			<texPath>6C/Anneli_Jurnizia_FakeBeard_B</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>6C/Anneli_Jurnizia_FakeBeard_B</wornGraphicPath>
-			<tags>
-				<li>Anneli_Jurnizia_Common</li>
-			</tags>
-		</apparel>
-		<equippedStatOffsets>
-			<TradePriceImprovement>0.15</TradePriceImprovement>
-			<ComfyTemperatureMin>-2</ComfyTemperatureMin> 
-		</equippedStatOffsets>
-	</ThingDef> -->
 
 </Defs>

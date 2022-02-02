@@ -2,14 +2,14 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Jurnizia_8" ParentName="Anneli_Jurnizia_ApparelCommonBase"  Abstract="True">
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
-			<li>Metallic</li>
-      		<li>Woody</li>
+			<li>Leathery</li>
+			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>12000</WorkToMake>
-			<Mass>2</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>0.5</Mass>
 			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
@@ -17,53 +17,122 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<SocialImpact>0.3</SocialImpact>
+			<CarryingCapacity>12</CarryingCapacity>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Anneli_Misc</li>
+				<li>Anneli_Bag</li>
 			</layers>
 			<tags>
 				<li>Anneli_Jurnizia</li>
 			</tags>
 		</apparel>
-	</ThingDef>	
+	</ThingDef>
 
-<!--Anneli_Jurnizia_Guitar-->
+<!--Anneli_Jurnizia_AtakaBackpack-->
 	<ThingDef ParentName="Anneli_Jurnizia_8">
-		<defName>Anneli_Jurnizia_Guitar</defName>
-		<description>(Jurnizia)8_Guitar</description>
-		<label>(Jurnizia)8_Guitar</label>
+		<defName>Anneli_Jurnizia_AtakaBackpack</defName>
+		<description>(Jurnizia)8_AtakaBackpack</description>
+		<label>(Jurnizia)8_AtakaBackpack</label>
 		<graphicData>
-			<texPath>8/Anneli_Jurnizia_Guitar</texPath>
+			<texPath>8/Anneli_Jurnizia_AtakaBackpack</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>8/Anneli_Jurnizia_Guitar</wornGraphicPath>
-			<!-- <tags>
-				<li>Anneli_Jurnizia_Special</li>
-			</tags> -->
+			<wornGraphicPath>8/Anneli_Jurnizia_AtakaBackpack</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Olive</li>
+			</tags>
 		</apparel>
-		<tickerType>Normal</tickerType>
-		<comps>
-			<li Class="Annelitrice.CompProperties_PlayMusic">
-				<soundDefs>
-					<!-- <li>Anneli_Sound_SampleSongGuitarA</li>
-					<li>Anneli_Sound_SampleSongGuitarB</li> -->
-				</soundDefs>
-				<effecters>
-					<li>Anneli_Effecter_Note1</li>
-					<li>Anneli_Effecter_Note2</li>
-					<li>Anneli_Effecter_Note3</li>
-				</effecters>
-				<playerThought>AnnelitricePlayerPlayedMusic</playerThought>
-				<audienceThought>AnnelitriceAudiencesHeardMusic</audienceThought>
-				<affectRadius>6</affectRadius>
-			</li>
-		</comps>
-	</ThingDef>	
+	</ThingDef>
+	
+<!--Anneli_Jurnizia_AtakaBackpack_Black-->
+	<ThingDef ParentName="Anneli_Jurnizia_8">
+		<defName>Anneli_Jurnizia_AtakaBackpack_Black</defName>
+		<description>(Jurnizia)8_AtakaBackpack_Black</description>
+		<label>(Jurnizia)8_AtakaBackpack_Black</label>
+		<graphicData>
+			<texPath>8/Anneli_Jurnizia_AtakaBackpack_Black</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8/Anneli_Jurnizia_AtakaBackpack_Black</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Black</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_AtakaBackpack_Tan-->
+	<ThingDef ParentName="Anneli_Jurnizia_8">
+		<defName>Anneli_Jurnizia_AtakaBackpack_Tan</defName>
+		<description>(Jurnizia)8_AtakaBackpack_Tan</description>
+		<label>(Jurnizia)8_AtakaBackpack_Tan</label>
+		<graphicData>
+			<texPath>8/Anneli_Jurnizia_AtakaBackpack_Tan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8/Anneli_Jurnizia_AtakaBackpack_Tan</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Tan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_AtakaBackpack_VSR-->
+	<ThingDef ParentName="Anneli_Jurnizia_8">
+		<defName>Anneli_Jurnizia_AtakaBackpack_VSR</defName>
+		<description>(Jurnizia)8_AtakaBackpack_VSR</description>
+		<label>(Jurnizia)8_AtakaBackpack_VSR</label>
+		<graphicData>
+			<texPath>8/Anneli_Jurnizia_AtakaBackpack_VSR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8/Anneli_Jurnizia_AtakaBackpack_VSR</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_VSR</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_DuffelBag-->
+	<ThingDef ParentName="Anneli_Jurnizia_8">
+		<defName>Anneli_Jurnizia_DuffelBag</defName>
+		<description>(Jurnizia)8_DuffelBag</description>
+		<label>(Jurnizia)8_DuffelBag</label>
+		<graphicData>
+			<texPath>8/Anneli_Jurnizia_DuffelBag</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8/Anneli_Jurnizia_DuffelBag</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Olive</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+<!--Anneli_Jurnizia_DuffelBag_Tan-->
+	<ThingDef ParentName="Anneli_Jurnizia_8">
+		<defName>Anneli_Jurnizia_DuffelBag_Tan</defName>
+		<description>(Jurnizia)8_DuffelBag_Tan</description>
+		<label>(Jurnizia)8_DuffelBag_Tan</label>
+		<graphicData>
+			<texPath>8/Anneli_Jurnizia_DuffelBag_Tan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>8/Anneli_Jurnizia_DuffelBag_Tan</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Tan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
 
 </Defs>
