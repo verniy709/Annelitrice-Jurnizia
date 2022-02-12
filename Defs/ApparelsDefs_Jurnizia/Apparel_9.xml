@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_Jurnizia_9" ParentName="Anneli_Jurnizia_ApparelCommonBase"  Abstract="True">
+	<ThingDef Name="Anneli_Jurnizia_9" ParentName="Anneli_Jurnizia_ApparelSpecialBase"  Abstract="True">
 		<costStuffCount>75</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
