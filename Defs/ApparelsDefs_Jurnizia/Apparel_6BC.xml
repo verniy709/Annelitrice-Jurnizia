@@ -35,34 +35,68 @@
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Jurnizia_GP5_GasMask-->
+<!--Anneli_Jurnizia_GP5_GasMask_A-->
 	<ThingDef ParentName="Anneli_Jurnizia_6BC">
-		<defName>Anneli_Jurnizia_GP5_GasMask</defName>
-		<description>(Jurnizia)6BC_GP5_GasMask</description>
-		<label>(Jurnizia)6BC_GP5_GasMask</label>
+		<defName>Anneli_Jurnizia_GP5_GasMask_A</defName>
+		<description>(Jurnizia)6BC_GP5_GasMask_A</description>
+		<label>(Jurnizia)6BC_GP5_GasMask_A</label>
 		<graphicData>
-			<texPath>6BC/Anneli_Jurnizia_GP5_GasMask</texPath>
+			<texPath>6BC/Anneli_Jurnizia_GP5_GasMask_A</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>6BC/Anneli_Jurnizia_GP5_GasMask</wornGraphicPath>
+			<wornGraphicPath>6BC/Anneli_Jurnizia_GP5_GasMask_A</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Common</li>
 			</tags>
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Jurnizia_PMK1_GasMask-->
+<!--Anneli_Jurnizia_GP5_GasMask_B-->
 	<ThingDef ParentName="Anneli_Jurnizia_6BC">
-		<defName>Anneli_Jurnizia_PMK1_GasMask</defName>
-		<description>(Jurnizia)6BC_PMK1_GasMask</description>
-		<label>(Jurnizia)6BC_PMK1_GasMask</label>
+		<defName>Anneli_Jurnizia_GP5_GasMask_B</defName>
+		<description>(Jurnizia)6BC_GP5_GasMask_B</description>
+		<label>(Jurnizia)6BC_GP5_GasMask_B</label>
 		<graphicData>
-			<texPath>6BC/Anneli_Jurnizia_PMK1_GasMask</texPath>
+			<texPath>6BC/Anneli_Jurnizia_GP5_GasMask_B</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>6BC/Anneli_Jurnizia_PMK1_GasMask</wornGraphicPath>
+			<wornGraphicPath>6BC/Anneli_Jurnizia_GP5_GasMask_B</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Common</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_PMK1_GasMask_A-->
+	<ThingDef ParentName="Anneli_Jurnizia_6BC">
+		<defName>Anneli_Jurnizia_PMK1_GasMask_A</defName>
+		<description>(Jurnizia)6BC_PMK1_GasMask_A</description>
+		<label>(Jurnizia)6BC_PMK1_GasMask_A</label>
+		<graphicData>
+			<texPath>6BC/Anneli_Jurnizia_PMK1_GasMask_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6BC/Anneli_Jurnizia_PMK1_GasMask_A</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Common</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_PMK1_GasMask_B-->
+	<ThingDef ParentName="Anneli_Jurnizia_6BC">
+		<defName>Anneli_Jurnizia_PMK1_GasMask_B</defName>
+		<description>(Jurnizia)6BC_PMK1_GasMask_B</description>
+		<label>(Jurnizia)6BC_PMK1_GasMask_B</label>
+		<graphicData>
+			<texPath>6BC/Anneli_Jurnizia_PMK1_GasMask_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6BC/Anneli_Jurnizia_PMK1_GasMask_B</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Common</li>
 			</tags>

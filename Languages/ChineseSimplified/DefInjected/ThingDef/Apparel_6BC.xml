@@ -1,16 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Anneli_Jurnizia_GP5_GasMask_A -->
+
+  <Anneli_Jurnizia_GP5_GasMask_A.label>(切尼亚)6BC_GP5_防毒面具_A</Anneli_Jurnizia_GP5_GasMask_A.label>
+  <Anneli_Jurnizia_GP5_GasMask_A.description>(切尼亚)6BC_GP5_防毒面具_A</Anneli_Jurnizia_GP5_GasMask_A.description>
+
+
+  <!-- Anneli_Jurnizia_GP5_GasMask_B -->
+
+  <Anneli_Jurnizia_GP5_GasMask_B.label>(切尼亚)6BC_GP5_防毒面具_B</Anneli_Jurnizia_GP5_GasMask_B.label>
+  <Anneli_Jurnizia_GP5_GasMask_B.description>(切尼亚)6BC_GP5_防毒面具_B</Anneli_Jurnizia_GP5_GasMask_B.description>
+
+
+  <!-- Anneli_Jurnizia_PMK1_GasMask_A -->
+
+  <Anneli_Jurnizia_PMK1_GasMask_A.label>(切尼亚)6BC_PMK1_防毒面具_A</Anneli_Jurnizia_PMK1_GasMask_A.label>
+  <Anneli_Jurnizia_PMK1_GasMask_A.description>(切尼亚)6BC_PMK1_防毒面具_A</Anneli_Jurnizia_PMK1_GasMask_A.description>
+
+
+  <!-- Anneli_Jurnizia_PMK1_GasMask_B -->
+
+  <Anneli_Jurnizia_PMK1_GasMask_B.label>(切尼亚)6BC_PMK1_防毒面具_B</Anneli_Jurnizia_PMK1_GasMask_B.label>
+  <Anneli_Jurnizia_PMK1_GasMask_B.description>(切尼亚)6BC_PMK1_防毒面具_B</Anneli_Jurnizia_PMK1_GasMask_B.description>
+
+
   <!-- Anneli_Jurnizia_GP5_GasMask -->
-
-  <Anneli_Jurnizia_GP5_GasMask.label>(切尼亚)6BC_GP5_防毒面具</Anneli_Jurnizia_GP5_GasMask.label>
-  <Anneli_Jurnizia_GP5_GasMask.description>(切尼亚)6BC_GP5_防毒面具</Anneli_Jurnizia_GP5_GasMask.description>
-
-
+  <!--<Anneli_Jurnizia_GP5_GasMask.label>(切尼亚)6BC_GP5_防毒面具</Anneli_Jurnizia_GP5_GasMask.label>-->
+  <!--<Anneli_Jurnizia_GP5_GasMask.description>(切尼亚)6BC_GP5_防毒面具</Anneli_Jurnizia_GP5_GasMask.description>-->
   <!-- Anneli_Jurnizia_PMK1_GasMask -->
-
-  <Anneli_Jurnizia_PMK1_GasMask.label>(切尼亚)6BC_PMK1_防毒面具</Anneli_Jurnizia_PMK1_GasMask.label>
-  <Anneli_Jurnizia_PMK1_GasMask.description>(切尼亚)6BC_PMK1_防毒面具</Anneli_Jurnizia_PMK1_GasMask.description>
-
+  <!--<Anneli_Jurnizia_PMK1_GasMask.label>(切尼亚)6BC_PMK1_防毒面具</Anneli_Jurnizia_PMK1_GasMask.label>-->
+  <!--<Anneli_Jurnizia_PMK1_GasMask.description>(切尼亚)6BC_PMK1_防毒面具</Anneli_Jurnizia_PMK1_GasMask.description>-->
 
 </LanguageData>

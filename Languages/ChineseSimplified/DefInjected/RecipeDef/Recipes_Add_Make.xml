@@ -296,13 +296,21 @@
   <Make_Anneli_Jurnizia_ZP2_80_Goggles.description>制作 (切尼亚)6B_ZP2_80_防风镜.</Make_Anneli_Jurnizia_ZP2_80_Goggles.description>
   <Make_Anneli_Jurnizia_ZP2_80_Goggles.jobString>制作中 (切尼亚)6B_ZP2_80_防风镜.</Make_Anneli_Jurnizia_ZP2_80_Goggles.jobString>
 
-  <Make_Anneli_Jurnizia_GP5_GasMask.label>制作 (切尼亚)6BC_GP5_防毒面具</Make_Anneli_Jurnizia_GP5_GasMask.label>
-  <Make_Anneli_Jurnizia_GP5_GasMask.description>制作 (切尼亚)6BC_GP5_防毒面具.</Make_Anneli_Jurnizia_GP5_GasMask.description>
-  <Make_Anneli_Jurnizia_GP5_GasMask.jobString>制作中 (切尼亚)6BC_GP5_防毒面具.</Make_Anneli_Jurnizia_GP5_GasMask.jobString>
+  <Make_Anneli_Jurnizia_GP5_GasMask_A.label>make (Jurnizia)6BC_GP5_防毒面具_A</Make_Anneli_Jurnizia_GP5_GasMask_A.label>
+  <Make_Anneli_Jurnizia_GP5_GasMask_A.description>Make (Jurnizia)6BC_GP5_防毒面具_A.</Make_Anneli_Jurnizia_GP5_GasMask_A.description>
+  <Make_Anneli_Jurnizia_GP5_GasMask_A.jobString>Making (Jurnizia)6BC_GP5_防毒面具_A.</Make_Anneli_Jurnizia_GP5_GasMask_A.jobString>
 
-  <Make_Anneli_Jurnizia_PMK1_GasMask.label>制作 (切尼亚)6BC_PMK1_防毒面具</Make_Anneli_Jurnizia_PMK1_GasMask.label>
-  <Make_Anneli_Jurnizia_PMK1_GasMask.description>制作 (切尼亚)6BC_PMK1_防毒面具.</Make_Anneli_Jurnizia_PMK1_GasMask.description>
-  <Make_Anneli_Jurnizia_PMK1_GasMask.jobString>制作中 (切尼亚)6BC_PMK1_防毒面具.</Make_Anneli_Jurnizia_PMK1_GasMask.jobString>
+  <Make_Anneli_Jurnizia_GP5_GasMask_B.label>make (Jurnizia)6BC_GP5_防毒面具_B</Make_Anneli_Jurnizia_GP5_GasMask_B.label>
+  <Make_Anneli_Jurnizia_GP5_GasMask_B.description>Make (Jurnizia)6BC_GP5_防毒面具_B.</Make_Anneli_Jurnizia_GP5_GasMask_B.description>
+  <Make_Anneli_Jurnizia_GP5_GasMask_B.jobString>Making (Jurnizia)6BC_GP5_防毒面具_B.</Make_Anneli_Jurnizia_GP5_GasMask_B.jobString>
+
+  <Make_Anneli_Jurnizia_PMK1_GasMask_A.label>make (Jurnizia)6BC_PMK1_防毒面具_A</Make_Anneli_Jurnizia_PMK1_GasMask_A.label>
+  <Make_Anneli_Jurnizia_PMK1_GasMask_A.description>Make (Jurnizia)6BC_PMK1_防毒面具_A.</Make_Anneli_Jurnizia_PMK1_GasMask_A.description>
+  <Make_Anneli_Jurnizia_PMK1_GasMask_A.jobString>Making (Jurnizia)6BC_PMK1_防毒面具_A.</Make_Anneli_Jurnizia_PMK1_GasMask_A.jobString>
+
+  <Make_Anneli_Jurnizia_PMK1_GasMask_B.label>make (Jurnizia)6BC_PMK1_防毒面具_B</Make_Anneli_Jurnizia_PMK1_GasMask_B.label>
+  <Make_Anneli_Jurnizia_PMK1_GasMask_B.description>Make (Jurnizia)6BC_PMK1_防毒面具_B.</Make_Anneli_Jurnizia_PMK1_GasMask_B.description>
+  <Make_Anneli_Jurnizia_PMK1_GasMask_B.jobString>Making (Jurnizia)6BC_PMK1_防毒面具_B.</Make_Anneli_Jurnizia_PMK1_GasMask_B.jobString>
 
   <Make_Anneli_Jurnizia_Balaclava.label>制作 (切尼亚)6C_头套</Make_Anneli_Jurnizia_Balaclava.label>
   <Make_Anneli_Jurnizia_Balaclava.description>制作 (切尼亚)6C_头套.</Make_Anneli_Jurnizia_Balaclava.description>
@@ -345,6 +353,12 @@
   <Make_Anneli_Jurnizia_Guitar.jobString>制作中 (切尼亚)9_吉他.</Make_Anneli_Jurnizia_Guitar.jobString>
 
 
+  <!--<Make_Anneli_Jurnizia_GP5_GasMask.label>制作 (切尼亚)6BC_GP5_防毒面具</Make_Anneli_Jurnizia_GP5_GasMask.label>-->
+  <!--<Make_Anneli_Jurnizia_GP5_GasMask.description>制作 (切尼亚)6BC_GP5_防毒面具.</Make_Anneli_Jurnizia_GP5_GasMask.description>-->
+  <!--<Make_Anneli_Jurnizia_GP5_GasMask.jobString>制作中 (切尼亚)6BC_GP5_防毒面具.</Make_Anneli_Jurnizia_GP5_GasMask.jobString>-->
+  <!--<Make_Anneli_Jurnizia_PMK1_GasMask.label>制作 (切尼亚)6BC_PMK1_防毒面具</Make_Anneli_Jurnizia_PMK1_GasMask.label>-->
+  <!--<Make_Anneli_Jurnizia_PMK1_GasMask.description>制作 (切尼亚)6BC_PMK1_防毒面具.</Make_Anneli_Jurnizia_PMK1_GasMask.description>-->
+  <!--<Make_Anneli_Jurnizia_PMK1_GasMask.jobString>制作中 (切尼亚)6BC_PMK1_防毒面具.</Make_Anneli_Jurnizia_PMK1_GasMask.jobString>-->
   <!--<Make_Anneli_Jurnizia_FakeBeard_A.label>制作 (Jurnizia)6C_假胡子_A</Make_Anneli_Jurnizia_FakeBeard_A.label>-->
   <!--<Make_Anneli_Jurnizia_FakeBeard_A.description>制作 (Jurnizia)6C_假胡子_A.</Make_Anneli_Jurnizia_FakeBeard_A.description>-->
   <!--<Make_Anneli_Jurnizia_FakeBeard_A.jobString>制作中 (Jurnizia)6C_假胡子_A.</Make_Anneli_Jurnizia_FakeBeard_A.jobString>-->
