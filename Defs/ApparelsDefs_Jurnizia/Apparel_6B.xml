@@ -21,7 +21,7 @@
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
 		</equippedStatOffsets>
 		<apparel>
-			<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>false</useWornGraphicMask>
 			<forceRenderUnderHair>true</forceRenderUnderHair>
 			<bodyPartGroups>
 				<li>Eyes</li>
