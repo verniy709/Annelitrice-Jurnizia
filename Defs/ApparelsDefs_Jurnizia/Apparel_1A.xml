@@ -8,9 +8,9 @@
 			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>1500</WorkToMake>
-			<Mass>0.10</Mass>
-			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<WorkToMake>150</WorkToMake>
+			<Mass>0.3</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>

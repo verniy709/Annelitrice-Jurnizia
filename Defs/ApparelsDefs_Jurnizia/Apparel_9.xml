@@ -2,19 +2,19 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Jurnizia_9" ParentName="Anneli_Jurnizia_ApparelSpecialBase"  Abstract="True">
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
       		<li>Woody</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>12000</WorkToMake>
-			<Mass>2</Mass>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.5</Mass>
 			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-			<Flammability>0.5</Flammability>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
 			<SocialImpact>0.3</SocialImpact>

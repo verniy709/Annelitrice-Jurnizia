@@ -2,23 +2,12 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Jurnizia_2C" ParentName="Anneli_Jurnizia_ApparelCommonBase"  Abstract="True">
-		<costStuffCount>25</costStuffCount>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>200</WorkToMake>
 			<Mass>0.5</Mass>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>5</EquipDelay>
-			<Flammability>0.5</Flammability>
+			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.15</MoveSpeed>
-		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Feet</li>
@@ -31,10 +20,41 @@
 				<li>Anneli_Jurnizia</li>
 			</tags>
 		</apparel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_2C_NonMetal" ParentName="Anneli_Jurnizia_2C"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.15</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_2C_Metal" ParentName="Anneli_Jurnizia_2C"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_HikingBoots-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_HikingBoots</defName>
 		<description>(Jurnizia)2C_HikingBoots</description>
 		<label>(Jurnizia)2C_HikingBoots</label>
@@ -51,7 +71,7 @@
 	</ThingDef>
 
 <!--Anneli_Jurnizia_LeatherBoots-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_LeatherBoots</defName>
 		<description>(Jurnizia)2C_LeatherBoots</description>
 		<label>(Jurnizia)2C_LeatherBoots</label>
@@ -68,7 +88,7 @@
 	</ThingDef>
 
 <!--Anneli_Jurnizia_MockbaTrainers_A-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_MockbaTrainers_A</defName>
 		<description>(Jurnizia)2C_MockbaTrainers_Blue</description>
 		<label>(Jurnizia)2C_MockbaTrainers_Blue</label>
@@ -85,7 +105,7 @@
 	</ThingDef>
 
 <!--Anneli_Jurnizia_MockbaTrainers_B-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_MockbaTrainers_B</defName>
 		<description>(Jurnizia)2C_MockbaTrainers_Black</description>
 		<label>(Jurnizia)2C_MockbaTrainers_Black</label>
@@ -102,7 +122,7 @@
 	</ThingDef>
 
 <!--Anneli_Jurnizia_TacticalBoots_A-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_TacticalBoots_A</defName>
 		<description>(Jurnizia)2C_TacticalBoots_Black</description>
 		<label>(Jurnizia)2C_TacticalBoots_Black</label>
@@ -119,7 +139,7 @@
 	</ThingDef>
 
 <!--Anneli_Jurnizia_TacticalBoots_B-->
-	<ThingDef ParentName="Anneli_Jurnizia_2C">
+	<ThingDef ParentName="Anneli_Jurnizia_2C_NonMetal">
 		<defName>Anneli_Jurnizia_TacticalBoots_B</defName>
 		<description>(Jurnizia)2C_TacticalBoots_Tan</description>
 		<label>(Jurnizia)2C_TacticalBoots_Tan</label>

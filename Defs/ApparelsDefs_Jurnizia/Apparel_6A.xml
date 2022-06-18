@@ -3,25 +3,16 @@
 
 	<ThingDef Name="Anneli_Jurnizia_6A" ParentName="Anneli_Jurnizia_ApparelCommonBase"  Abstract="True">
 		<costStuffCount>20</costStuffCount>
-		<!-- <stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories> -->
 		<statBases>
-			<WorkToMake>2000</WorkToMake>
-			<Mass>0.2</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
 			<EquipDelay>1</EquipDelay>
-			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.1</AimingDelayFactor>
 		</equippedStatOffsets>
 		<apparel>
-			<useWornGraphicMask>false</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
@@ -31,11 +22,37 @@
 			<tags>
 				<li>Anneli_Jurnizia</li>
 			</tags>
+			<forceRenderUnderHair>false</forceRenderUnderHair>
 		</apparel>
 	</ThingDef>
 
+	<ThingDef Name="Anneli_Jurnizia_6A_NonMetal" ParentName="Anneli_Jurnizia_6A"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_6A_Metal" ParentName="Anneli_Jurnizia_6A"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
 <!--Anneli_Jurnizia_BandanaCap-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BandanaCap</defName>
 		<description>(Jurnizia)6A_BandanaCap</description>
 		<label>(Jurnizia)6A_BandanaCap</label>
@@ -49,14 +66,10 @@
 				<li>Anneli_Jurnizia_Military_Olive</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 	
 <!--Anneli_Jurnizia_BandanaCap_Tan-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BandanaCap_Tan</defName>
 		<description>(Jurnizia)6A_BandanaCap_Tan</description>
 		<label>(Jurnizia)6A_BandanaCap_Tan</label>
@@ -70,14 +83,10 @@
 				<li>Anneli_Jurnizia_Military_Tan</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_BandanaCap_VSR-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BandanaCap_VSR</defName>
 		<description>(Jurnizia)6A_BandanaCap_VSR</description>
 		<label>(Jurnizia)6A_BandanaCap_VSR</label>
@@ -91,14 +100,10 @@
 				<li>Anneli_Jurnizia_Military_VSR</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_BaseballCap-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BaseballCap</defName>
 		<description>(Jurnizia)6A_BaseballCap</description>
 		<label>(Jurnizia)6A_BaseballCap</label>
@@ -112,14 +117,10 @@
 				<li>Anneli_Jurnizia_Military_Olive</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 	
 <!--Anneli_Jurnizia_BaseballCap_Tan-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BaseballCap_Tan</defName>
 		<description>(Jurnizia)6A_BaseballCap_Tan</description>
 		<label>(Jurnizia)6A_BaseballCap_Tan</label>
@@ -133,14 +134,10 @@
 				<li>Anneli_Jurnizia_Military_Tan</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_BaseballCap_VSR-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_BaseballCap_VSR</defName>
 		<description>(Jurnizia)6A_BaseballCap_VSR</description>
 		<label>(Jurnizia)6A_BaseballCap_VSR</label>
@@ -154,14 +151,10 @@
 				<li>Anneli_Jurnizia_Military_VSR</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Jurnizia_Beanie-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_Beanie</defName>
 		<description>(Jurnizia)6A_Beanie</description>
 		<label>(Jurnizia)6A_Beanie</label>
@@ -175,14 +168,10 @@
 				<li>Anneli_Jurnizia_Civilian</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_FlatCap-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_FlatCap</defName>
 		<description>(Jurnizia)6A_FlatCap</description>
 		<label>(Jurnizia)6A_FlatCap</label>
@@ -196,14 +185,10 @@
 				<li>Anneli_Jurnizia_Civilian</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_GorkaHood-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_GorkaHood</defName>
 		<description>(Jurnizia)6A_GorkaHood</description>
 		<label>(Jurnizia)6A_GorkaHood</label>
@@ -217,14 +202,10 @@
 				<li>Anneli_Jurnizia_Gorka</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_GorkaHood_VSR-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_GorkaHood_VSR</defName>
 		<description>(Jurnizia)6A_GorkaHood_VSR</description>
 		<label>(Jurnizia)6A_GorkaHood_VSR</label>
@@ -238,14 +219,10 @@
 				<li>Anneli_Jurnizia_Gorka_VSR</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_PatrolCap-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_PatrolCap</defName>
 		<description>(Jurnizia)6A_PatrolCap</description>
 		<label>(Jurnizia)6A_PatrolCap</label>
@@ -259,14 +236,10 @@
 				<li>Anneli_Jurnizia_Military_Olive</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_PatrolCap_Tan-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_PatrolCap_Tan</defName>
 		<description>(Jurnizia)6A_PatrolCap_Tan</description>
 		<label>(Jurnizia)6A_PatrolCap_Tan</label>
@@ -280,14 +253,10 @@
 				<li>Anneli_Jurnizia_Military_Tan</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_PatrolCap_VSR-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_PatrolCap_VSR</defName>
 		<description>(Jurnizia)6A_PatrolCap_VSR</description>
 		<label>(Jurnizia)6A_PatrolCap_VSR</label>
@@ -301,14 +270,10 @@
 				<li>Anneli_Jurnizia_Military_VSR</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_Ushanka_A-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_Ushanka_A</defName>
 		<description>(Jurnizia)6A_Ushanka_A</description>
 		<label>(Jurnizia)6A_Ushanka_A</label>
@@ -322,14 +287,10 @@
 				<li>Anneli_Jurnizia_Common</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_Ushanka_B-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_NonMetal">
 		<defName>Anneli_Jurnizia_Ushanka_B</defName>
 		<description>(Jurnizia)6A_Ushanka_B</description>
 		<label>(Jurnizia)6A_Ushanka_B</label>
@@ -343,14 +304,10 @@
 				<li>Anneli_Jurnizia_Common</li>
 			</tags>
 		</apparel>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_MASKA-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_Metal">
 		<defName>Anneli_Jurnizia_MASKA</defName>
 		<description>(Jurnizia)6A_MASKA</description>
 		<label>(Jurnizia)6A_MASKA</label>
@@ -364,24 +321,10 @@
 				<li>Anneli_Jurnizia_Military_Olive</li>
 			</tags>
 		</apparel>
-		<!--Heavy armor stats-->
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>70</costStuffCount>
-		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<Mass>2.5</Mass>
-			<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-			<Flammability>0.15</Flammability>
-		</statBases>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_MASKA_Black-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_Metal">
 		<defName>Anneli_Jurnizia_MASKA_Black</defName>
 		<description>(Jurnizia)6A_MASKA_Black</description>
 		<label>(Jurnizia)6A_MASKA_Black</label>
@@ -395,24 +338,10 @@
 				<li>Anneli_Jurnizia_Military_Black</li>
 			</tags>
 		</apparel>
-		<!--Heavy armor stats-->
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>70</costStuffCount>
-		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<Mass>2.5</Mass>
-			<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-			<Flammability>0.15</Flammability>
-		</statBases>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_SSH68_Helmet-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_Metal">
 		<defName>Anneli_Jurnizia_SSH68_Helmet</defName>
 		<description>(Jurnizia)6A_SSH68_Helmet</description>
 		<label>(Jurnizia)6A_SSH68_Helmet</label>
@@ -426,24 +355,10 @@
 				<li>Anneli_Jurnizia_Military_Olive</li>
 			</tags>
 		</apparel>
-		<!--Heavy armor stats-->
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
-		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>1.5</Mass>
-			<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-			<Flammability>0.15</Flammability>
-		</statBases>
 	</ThingDef>
 
 <!--Anneli_Jurnizia_SSH68_Helmet_VSR-->
-	<ThingDef ParentName="Anneli_Jurnizia_6A">
+	<ThingDef ParentName="Anneli_Jurnizia_6A_Metal">
 		<defName>Anneli_Jurnizia_SSH68_Helmet_VSR</defName>
 		<description>(Jurnizia)6A_SSH68_Helmet_VSR</description>
 		<label>(Jurnizia)6A_SSH68_Helmet_VSR
@@ -459,20 +374,6 @@
 				<li>Anneli_Jurnizia_Military_VSR</li>
 			</tags>
 		</apparel>
-		<!--Heavy armor stats-->
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
-		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>1.5</Mass>
-			<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-			<Flammability>0.15</Flammability>
-		</statBases>
 	</ThingDef>
 
 </Defs>
