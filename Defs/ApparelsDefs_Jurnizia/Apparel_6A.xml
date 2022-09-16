@@ -200,6 +200,7 @@
 			<wornGraphicPath>6A/Anneli_Jurnizia_GorkaHood</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Gorka</li>
+				<li>Anneli_Hood</li>
 			</tags>
 		</apparel>
 	</ThingDef>
@@ -217,6 +218,7 @@
 			<wornGraphicPath>6A/Anneli_Jurnizia_GorkaHood_VSR</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Gorka_VSR</li>
+				<li>Anneli_Hood</li>
 			</tags>
 		</apparel>
 	</ThingDef>

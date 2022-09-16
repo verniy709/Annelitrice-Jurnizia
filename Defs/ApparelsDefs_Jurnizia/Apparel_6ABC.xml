@@ -67,6 +67,7 @@
 			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Black_Slit</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Military_Black</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 		</apparel>
 	</ThingDef>
@@ -84,6 +85,7 @@
 			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Black_Visor</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Military_Black</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 		</apparel>
 	</ThingDef>
@@ -101,6 +103,7 @@
 			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Slit</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Heavy</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 		</apparel>
 	</ThingDef>
@@ -118,6 +121,7 @@
 			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Visor</wornGraphicPath>
 			<tags>
 				<li>Anneli_Jurnizia_Heavy</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 		</apparel>
 	</ThingDef>
