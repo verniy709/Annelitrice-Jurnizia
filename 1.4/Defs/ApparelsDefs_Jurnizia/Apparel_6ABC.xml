@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Jurnizia_6ABC" ParentName="Anneli_Jurnizia_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<Mass>1.0</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>0.6</ToxicResistance>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Anneli_Jurnizia</li>
+			</tags>
+		</apparel>		
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_6ABC_NonMetal" ParentName="Anneli_Jurnizia_6ABC"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Jurnizia_6ABC_Metal" ParentName="Anneli_Jurnizia_6ABC"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_MASKA_Black_Slit-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKA_Black_Slit</defName>
+		<description>(Jurnizia)6ABC_MASKA_Black_Slit</description>
+		<label>(Jurnizia)6ABC_MASKA_Black_Slit</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKA_Black_Slit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Black_Slit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Black</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_MASKA_Black_Visor-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKA_Black_Visor</defName>
+		<description>(Jurnizia)6ABC_MASKA_Black_Visor</description>
+		<label>(Jurnizia)6ABC_MASKA_Black_Visor</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKA_Black_Visor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Black_Visor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Military_Black</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_MASKA_Slit-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKA_Slit</defName>
+		<description>(Jurnizia)6ABC_MASKA_Slit</description>
+		<label>(Jurnizia)6ABC_MASKA_Slit</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKA_Slit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Slit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Heavy</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Jurnizia_MASKA_Visor-->
+	<ThingDef ParentName="Anneli_Jurnizia_6ABC_Metal">
+		<defName>Anneli_Jurnizia_MASKA_Visor</defName>
+		<description>(Jurnizia)6ABC_MASKA_Visor</description>
+		<label>(Jurnizia)6ABC_MASKA_Visor</label>
+		<graphicData>
+			<texPath>6ABC/Anneli_Jurnizia_MASKA_Visor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Jurnizia_MASKA_Visor</wornGraphicPath>
+			<tags>
+				<li>Anneli_Jurnizia_Heavy</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+			
+</Defs>

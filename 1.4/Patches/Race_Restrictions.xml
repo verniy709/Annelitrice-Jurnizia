@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--  Annelitrice 2.0 -->
+    <Operation Class="PatchOperationFindMod">
+      <mods><li>Annelitrice 2.0</li></mods>
+      <match Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]/alienRace/raceRestriction/apparelList</xpath>        
+        <value>
+           <li>Anneli_Jurnizia_SportsBra</li>
+           <li>Anneli_Jurnizia_SportsUnderwear</li>
+           <li>Anneli_Jurnizia_Footwraps</li>
+           <li>Anneli_Jurnizia_Socks</li>
+           <li>Anneli_Jurnizia_Adidas_Black</li>
+           <li>Anneli_Jurnizia_Adidas_White</li>
+           <li>Anneli_Jurnizia_TankTop</li>
+           <li>Anneli_Jurnizia_TankTop_VSR</li>
+           <li>Anneli_Jurnizia_TelnyashkaSweater</li>
+           <li>Anneli_Jurnizia_TelnyashkaTankTop</li>
+           <li>Anneli_Jurnizia_AdidasPants</li>
+           <li>Anneli_Jurnizia_GorkaPants</li>
+           <li>Anneli_Jurnizia_GorkaPants_VSR</li>
+           <li>Anneli_Jurnizia_Jeans</li>
+           <li>Anneli_Jurnizia_JeanShorts</li>
+           <li>Anneli_Jurnizia_Pants_VSR</li>
+           <li>Anneli_Jurnizia_Shorts_VSR</li>
+           <li>Anneli_Jurnizia_AdidasCoat_A</li>
+           <li>Anneli_Jurnizia_AdidasCoat_B</li>
+           <li>Anneli_Jurnizia_DownJacket</li>
+           <li>Anneli_Jurnizia_GorkaCoat</li>
+           <li>Anneli_Jurnizia_GorkaCoat_VSR</li>
+           <li>Anneli_Jurnizia_JeanJacket</li>
+           <li>Anneli_Jurnizia_LeatherJacket</li>
+           <li>Anneli_Jurnizia_SummerCoat_VSR</li>
+           <li>Anneli_Jurnizia_WinterCoat_VSR</li>
+           <li>Anneli_Jurnizia_HikingBoots</li>
+           <li>Anneli_Jurnizia_LeatherBoots</li>
+           <li>Anneli_Jurnizia_MockbaTrainers_A</li>
+           <li>Anneli_Jurnizia_MockbaTrainers_B</li>
+           <li>Anneli_Jurnizia_TacticalBoots_A</li>
+           <li>Anneli_Jurnizia_TacticalBoots_B</li>
+           <li>Anneli_Jurnizia_6B2_Armor</li>
+           <li>Anneli_Jurnizia_6B2_Armor_Tan</li>
+           <li>Anneli_Jurnizia_6B2_Armor_VSR</li>
+           <li>Anneli_Jurnizia_6B3_Armor</li>
+           <li>Anneli_Jurnizia_6B3_Armor_Tan</li>
+           <li>Anneli_Jurnizia_6B3_Armor_VSR</li>
+           <li>Anneli_Jurnizia_6B13_Armor</li>
+           <li>Anneli_Jurnizia_6B13_Armor_Tan</li>
+           <li>Anneli_Jurnizia_6B13_Armor_VSR</li>
+           <li>Anneli_Jurnizia_Lifchik</li>
+           <li>Anneli_Jurnizia_Lifchik_Black</li>
+           <li>Anneli_Jurnizia_Lifchik_Tan</li>
+           <li>Anneli_Jurnizia_Lifchik_VSR</li>
+           <li>Anneli_Jurnizia_BandanaCap</li>
+           <li>Anneli_Jurnizia_BandanaCap_Tan</li>
+           <li>Anneli_Jurnizia_BandanaCap_VSR</li>
+           <li>Anneli_Jurnizia_BaseballCap</li>
+           <li>Anneli_Jurnizia_BaseballCap_Tan</li>
+           <li>Anneli_Jurnizia_BaseballCap_VSR</li>
+           <li>Anneli_Jurnizia_Beanie</li>
+           <li>Anneli_Jurnizia_FlatCap</li>
+           <li>Anneli_Jurnizia_GorkaHood</li>
+           <li>Anneli_Jurnizia_GorkaHood_VSR</li>
+           <li>Anneli_Jurnizia_PatrolCap</li>
+           <li>Anneli_Jurnizia_PatrolCap_Tan</li>
+           <li>Anneli_Jurnizia_PatrolCap_VSR</li>
+           <li>Anneli_Jurnizia_Ushanka_A</li>
+           <li>Anneli_Jurnizia_Ushanka_B</li>
+           <li>Anneli_Jurnizia_MASKA</li>
+           <li>Anneli_Jurnizia_MASKA_Black</li>
+           <li>Anneli_Jurnizia_SSH68_Helmet</li>
+           <li>Anneli_Jurnizia_SSH68_Helmet_VSR</li>
+           <li>Anneli_Jurnizia_MASKA_Black_Slit</li>
+           <li>Anneli_Jurnizia_MASKA_Black_Visor</li>
+           <li>Anneli_Jurnizia_MASKA_Slit</li>
+           <li>Anneli_Jurnizia_MASKA_Visor</li>
+           <li>Anneli_Jurnizia_AviatorSunglasses</li>
+           <li>Anneli_Jurnizia_ZP1_80_Goggles</li>
+           <li>Anneli_Jurnizia_ZP2_80_Goggles</li>
+           <li>Anneli_Jurnizia_GP5_GasMask_A</li>
+           <li>Anneli_Jurnizia_GP5_GasMask_B</li>
+           <li>Anneli_Jurnizia_PMK1_GasMask_A</li>
+           <li>Anneli_Jurnizia_PMK1_GasMask_B</li>
+           <li>Anneli_Jurnizia_Balaclava</li>
+           <li>Anneli_Jurnizia_ScarfMask</li>
+           <li>Anneli_Jurnizia_Cigar</li>
+           <li>Anneli_Jurnizia_AtakaBackpack</li>
+           <li>Anneli_Jurnizia_AtakaBackpack_Black</li>
+           <li>Anneli_Jurnizia_AtakaBackpack_Tan</li>
+           <li>Anneli_Jurnizia_AtakaBackpack_VSR</li>
+           <li>Anneli_Jurnizia_DuffelBag</li>
+           <li>Anneli_Jurnizia_DuffelBag_Tan</li>
+           <li>Anneli_Jurnizia_Guitar</li>
+        </value>
+      </match>
+    </Operation>
+
+</Patch>
